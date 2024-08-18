@@ -10,7 +10,10 @@ function App(){
 
     <Encabezado />
 
-    <Ciudad />
+    <Ciudad 
+    nombre="Lima" 
+    descripcion="La Capital del Peru" 
+    imagen="https://i.ytimg.com/vi/_VcymaSKbpI/maxresdefault.jpg" />
 
     <Pie />
     </>

@@ -1,8 +1,14 @@
-import Mensaje from './componente/mensaje'
+import { Fragment } from 'react';
+import Mensaje from './componente/Mensaje'
 
 function App(){
   
-  return <Mensaje />
+  return (
+    <>
+    <Mensaje />
+    <Mensaje />
+    </>
+  );
 }
 
-export default App
+export default App;

@@ -2,6 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import logocibertec from './image/logociber.png'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +17,9 @@ function App() {
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
+        <a href="https://www.cibertec.edu.pe/" target="_blank">
+          <img src={logocibertec} className="logo react" alt="React logo" />
+        </a>
       </div>
       <h1>Vite + React</h1>
       <div className="card">
@@ -26,7 +31,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Click en Vite , React y Cibertec para mas información... 
       </p>
     </>
   )
